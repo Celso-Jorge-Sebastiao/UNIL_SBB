@@ -106,9 +106,9 @@ It's insightful to recognize that the model faces challenges in predicting corre
 The culmination of our work is an integrated algorithm presented through a Streamlit interface. This user-friendly tool aids in classifying PDFs containing French sentences. Here's how it works:
 
 - Download PDFs:
-* Users can download copyright-free books in PDF format from https://bibliothequenumerique.tv5monde.com/liste/livres or any other preferred platform.
+  - Users can download copyright-free books in PDF format from https://bibliothequenumerique.tv5monde.com/liste/livres or any other preferred platform.
 - Upload PDF:
-*Copy the path of the downloaded PDF file.
+--Copy the path of the downloaded PDF file.
 *Paste the path into the provided input field on the Streamlit interface.
 -Classification Process:
 *The application utilizes our developed algorithm to classify the PDF, predicting the overall language proficiency required to read the book. The algorithm is capable of splitting PDF sentences for analysis. To extract sentences from PDFs, we employed the "pdftosentence.py" code.
