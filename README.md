@@ -4,7 +4,7 @@
 
 
 
-## 1. Introduction :
+## 1. Introduction 
 
 The goal of this work was to classify sentences using the CEDR evaluation. The classes assigned to the sentences range from A1 (basic) to C2 (advanced). The algorithm used to achieve the classification was based on machine learning, various attempts were made using neural networks, word embedding and different classifiers. 
 In this github repository, you will find all the data our group used in order to do the assignment and compete in the kaggle's competition. 
@@ -12,7 +12,7 @@ In this github repository, you will find all the data our group used in order to
 At the end of this presentation, wou will find the explanation of this assignement in a youtube video format. 
 
 
-## 2.Progress overtime :
+## 2. Progress overtime 
 
 The first attempts were based on a neural network algorithm. Firstly, we split the sentences from our training dataset into a bag of words vector. We used OneHotEncoding to split the labels that we wanted to predict into a 6 dimensions binary vector. The twenty stopwords used were chosen based on the sum of the different columns from our bag of words. We tried various numbers of learning rates and hidden layers. The inital score we got was XXX which was a bad result but still higher than the default rate. You can find the code in the XXX folder. 
 
