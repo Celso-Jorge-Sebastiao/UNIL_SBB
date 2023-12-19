@@ -14,7 +14,7 @@ At the end of this presentation, wou will find the explanation of this assigneme
 
 ## 2. Progress overtime 
 
-!                                 [Progress](https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/82185439/cbe41261-4476-4bb7-9c4b-4bc5fb45fe8e)
+![Progress](https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/82185439/cbe41261-4476-4bb7-9c4b-4bc5fb45fe8e)
 
 
 <div style="display: flex; justify-content: center;">
@@ -38,8 +38,6 @@ The books and their level are stored in a csv format in the "Livres" folder.
 The last attempt was to create 4 different predictions 
 The first part consists of prediction the category level of the sentences, it means that we only predict if the sentence is A, B or C and drop the "1" and "2" part. Then, for each category, we create a model that predicts if it's "1" or "2".
 The "ABC" model is training using one unique feature which is the number of words in the sentence. We also tried to add the number or commas but the accuracy decreased. The attempt was not completed because the precision of the "ABC" model multiplied by the precision of the "1/2" models didnt seem promising. Noting that the "1/2" model showed very high accuracy. 
-
-GIF
 
 ## 3. Classifiers
 
