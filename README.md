@@ -4,8 +4,6 @@
 
 
 
-<img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/148785564/c8cb4c43-f77f-47f0-9569-39cc3429a300" alt="image" width="200"/>
-
 ## 1. Introduction :
 
 The goal of this work was to classify sentences using the CEDR evaluation. The classes assigned to the sentences range from A1 (basic) to C2 (advanced). The algorithm used to achieve the classification was based on machine learning, various attempts were made using neural networks, word embedding and different classifiers. 
