@@ -131,7 +131,7 @@ The datasets provided were given by the assistants and the teacher.
 
 ## 9. Context 
 
-This assignment was made by Lisa Chauvet and Celso Jorge Sebastiao for professor Michaelis Vlachos' UNIL class : Machine learning and supervised methods. 
+This assignment was made by Lisa Chauvet and Celso Jorge Sebastiao for professor Michalis Vlachos' UNIL class : Machine learning and supervised methods. 
 The deadline was scheduled at the following date : 20.12.2023
 
 <img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/148785564/c8cb4c43-f77f-47f0-9569-39cc3429a300" alt="image" width="200"/>
