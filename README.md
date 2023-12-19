@@ -14,15 +14,15 @@ At the end of this presentation, wou will find the explanation of this assigneme
 
 ## 2. Progress overtime 
 
-The first attempts were based on a neural network algorithm. Firstly, we split the sentences from our training dataset into a bag of words vector. We used OneHotEncoding to split the labels that we wanted to predict into a 6 dimensions binary vector. The twenty stopwords used were chosen based on the sum of the different columns from our bag of words. We tried various numbers of learning rates and hidden layers. The inital score we got was XXX which was a bad result but still higher than the default rate. You can find the code in the XXX folder. 
+The first attempts were based on a neural network algorithm. Firstly, we split the sentences from our training dataset into a bag of words vector. We used OneHotEncoding to split the labels that we wanted to predict into a 6 dimensions binary vector. The twenty stopwords used were chosen based on the sum of the different columns from our bag of words. We tried various numbers of learning rates and hidden layers. The inital score we got was 0.468 which was a bad result but still higher than the default rate. You can find the code in the XXX folder. 
 
-Then, we tried to used spaCy which is an open-source library for advanced Natural Language Processing (NLP). Spacy offers the possibility to use 500+ french stopwords already stored in the library. We got a very good result for the training test but it was only due to overfitting. The final score was slightly better than the Neural Network Classifier. 
+Then, we tried to used spaCy which is an open-source library for advanced Natural Language Processing (NLP). Spacy offers the possibility to use 500+ french stopwords already stored in the library. We got a very good result for the training test but it was only due to overfitting. The final score was the same as the Neural Network Classifier. 
 
-Furthermore, we tried to use Bert, multi-language Bert, to embed our training dataset. We  used different classifiers. The precision for the unlabelled dataset increased to nearly XXX.
+Furthermore, we tried to use Bert, multi-language Bert, to embed our training dataset. We  used different classifiers. The precision for the unlabelled dataset increased to 0.505.
 
-Finally, CamemBert, which is specialized in french language was used to achieve the final score. Along with new classifiers presented below. 
+Finally, CamemBert, which is specialized in french language was used to achieve the final score. Along with new classifiers presented below. The result score at first attempt was 0.564. After changing paremeters and classifiers, the final result was 0.569
 
-Mentions to the following uncessful attempts : 
+### Mentions to the following uncessful attempts : 
 Data augmentation : We tried to add training data by asking ChatGPT to classify the global level of some Jules Vernes books. Then we downloaded the copyright free books, split the sentences and added the level provided by ChatGPT into all of them. 
 The training precision was great but the unlabelled precision went down to 0.50 again. 
 We believe that the labels predicted by ChaGPT were not that great and that giving the same label to all the sentences is also wrong. But this attempt showed that data augmentation might provide better precision.
