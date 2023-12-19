@@ -16,11 +16,6 @@ At the end of this presentation, wou will find the explanation of this assigneme
 
 ![Progress](https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/82185439/cbe41261-4476-4bb7-9c4b-4bc5fb45fe8e)
 
-
-<div style="display: flex; justify-content: center;">
-  ![Progress](https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/82185439/cbe41261-4476-4bb7-9c4b-4bc5fb45fe8e)
-</div>
-
 The first attempts were based on a neural network algorithm. Firstly, we split the sentences from our training dataset into a bag of words vector. We used OneHotEncoding to split the labels that we wanted to predict into a 6 dimensions binary vector. The twenty stopwords used were chosen based on the sum of the different columns from our bag of words. We tried various numbers of learning rates and hidden layers. The inital score we got was 0.468 which was a bad result but still higher than the default rate. You can find the code in the XXX folder. 
 
 Then, we tried to used spaCy which is an open-source library for advanced Natural Language Processing (NLP). Spacy offers the possibility to use 500+ french stopwords already stored in the library. We got a very good result for the training test but it was only due to overfitting. The final score was the same as the Neural Network Classifier. 
