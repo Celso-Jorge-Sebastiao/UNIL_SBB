@@ -102,7 +102,7 @@ The final classifier chosen was stacking classifier associated with the followin
 ## 4. Confusion Matrix 
 
 We can see that there is some problems to predict the correct labels but the majority are right and the misclassified are generally one class higher or lower than the true label. This can be corrected with more data in our dataset or maybe adding features that distinguish the neighbor classes. 
-Image
+![Confusion Matrix](https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/82185439/1bd94279-010c-46f4-9908-8d9e06ffee97)
 
 ## 5. User Interface 
 
