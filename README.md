@@ -104,20 +104,23 @@ The final classifier chosen was stacking classifier associated with the followin
 We can see that there is some problems to predict the correct labels but the majority are right and the misclassified are generally one class higher or lower than the true label. This can be corrected with more data in our dataset or maybe adding features that distinguish the neighbor classes. 
 
 <img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/82185439/1bd94279-010c-46f4-9908-8d9e06ffee97" width="500">
+
 ## 5. User Interface 
 
 The final algorithm was integrated into a streamlit interface to help the user classify a pdf containing french sentences. The user can download copyright free books in a pdf format in https://bibliothequenumerique.tv5monde.com/liste/livres or in any other prefered platform. Then he copies the path of the downloaded file and pastes it in the user interface. The application will classify the pdf and predict the global language proficiency needed to read the book. To split the pdf sentences, we used the code "Pdf_to_sentences.py".
 Image + path 
+<img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/82185439/c1173d75-0b6d-4636-b6a1-dada3b32e2bb" width="500">
 
-## 5.Youtube Presentation
+## 6. Youtube Presentation
 Link 
 
-## Credits 
+## 7. Credits 
 
 ChatGPT version 3.5 was used as a programming assistant and for debugging errors. 
 All codes were written in the google colab platform.
+The datasets provided were given by the assistants and the teacher. 
 
-## Context 
+## 8. Context 
 
 This assignment was made by Lisa Chauvet-Heinz and Celso Jorge Sebastiao for professor Michaelis Vlachos' UNIL class : Machine learning and supervised methods. 
 The deadline was scheduled at the following date : 20.12.2023
