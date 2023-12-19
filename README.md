@@ -108,12 +108,12 @@ The culmination of our work is an integrated algorithm presented through a Strea
 - Download PDFs:
   - Users can download copyright-free books in PDF format from https://bibliothequenumerique.tv5monde.com/liste/livres or any other preferred platform.
 - Upload PDF:
---Copy the path of the downloaded PDF file.
-*Paste the path into the provided input field on the Streamlit interface.
--Classification Process:
-*The application utilizes our developed algorithm to classify the PDF, predicting the overall language proficiency required to read the book. The algorithm is capable of splitting PDF sentences for analysis. To extract sentences from PDFs, we employed the "pdftosentence.py" code.
+  - Copy the path of the downloaded PDF file.
+  - Paste the path into the provided input field on the Streamlit interface.
+- Classification Process:
+  - The application utilizes our developed algorithm to classify the PDF, predicting the overall language proficiency required to read the book. The algorithm is capable of splitting PDF sentences for analysis. To extract sentences from PDFs, we employed the "pdftosentence.py" code.
 -Output:
-*Users receive the classification results, gaining insights into the global language proficiency needed for the given PDF.
+  - Users receive the classification results, gaining insights into the global language proficiency needed for the given PDF.
 
 This Streamlit interface enhances user accessibility and simplifies the classification process, making it convenient for users to assess the language proficiency associated with their PDF content.
 
