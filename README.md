@@ -1,4 +1,4 @@
-# UNIL_SBB - Machine learning master's projet
+# UNIL_SBB - Machine learning master's project
 
 ## 1. Introduction 
  
