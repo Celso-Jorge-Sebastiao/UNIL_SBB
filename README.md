@@ -5,7 +5,17 @@
 The objective of this project was to classify french sentences using the CEDR evaluation. Sentences are assigned classes ranging from A1 (basic) to C2 (advanced). The associated skills for each level are detailed in the image below:
  
 <img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/148785564/bf3b0a97-09bd-4c0a-8e44-eb2cd4598c7a" alt="image" width="1000"/>
- 
+
+Classifying sentences serves several crucial purposes:
+- Language Proficiency Assessment:
+  - Provides a systematic evaluation of language proficiency, enabling users to gauge their language skills accurately.
+- Educational Applications:
+  - Assists educators in tailoring teaching materials to match the language proficiency levels of learners, facilitating targeted and effective language instruction.
+- Content Customization:
+  - Enables content creators and publishers to tailor written material to specific language proficiency levels, ensuring accessibility and comprehension for a diverse audience.
+- Adaptive Learning Systems:
+  - Supports the development of adaptive learning systems that dynamically adjust content difficulty based on the learner's proficiency, optimizing the learning experience.
+
 The classification algorithm employed for this task was based on machine learning. We explored various approaches, including neural networks, word embedding, and different classifiers. In this GitHub repository, you will find all the data our group utilized for the assignment and our participation in the Kaggle competition.
  
 Towards the end of this introduction, you will find an explanation of the assignment presented in video format on YouTube.
