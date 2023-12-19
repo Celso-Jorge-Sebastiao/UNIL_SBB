@@ -1,12 +1,12 @@
 # UNIL_SBB - Machine learning master's projet
 
-<img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/148785564/bf3b0a97-09bd-4c0a-8e44-eb2cd4598c7a" alt="image" width="1000"/>
-
-
-
 ## 1. Introduction 
 
-The goal of this work was to classify sentences using the CEDR evaluation. The classes assigned to the sentences range from A1 (basic) to C2 (advanced). The algorithm used to achieve the classification was based on machine learning, various attempts were made using neural networks, word embedding and different classifiers. 
+The goal of this work was to classify sentences using the CEDR evaluation. The classes assigned to the sentences range from A1 (basic) to C2 (advanced). The following image gives a description of the skills associated to the different levels : 
+
+<img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/148785564/bf3b0a97-09bd-4c0a-8e44-eb2cd4598c7a" alt="image" width="1000"/>
+
+The algorithm used to achieve the classification was based on machine learning, various attempts were made using neural networks, word embedding and different classifiers. 
 In this github repository, you will find all the data our group used in order to do the assignment and compete in the kaggle's competition. 
 
 At the end of this presentation, wou will find the explanation of this assignement in a youtube video format. 
