@@ -36,13 +36,6 @@ GIF
 
 ## 3. Classifiers
 
-| Metric      | Stacking | Logistic Regression | KNN   | Gaussian Naive Bayes | Kernel SVM | Random Forest | Voting | Decision Tree |
-|-------------|----------|---------------------|-------|-----------------------|------------|---------------|--------|---------------|
-| Accuracy    | 0.571    | 0.565               | 0.502 | 0.483                 | 0.569      | 0.520         | 0.566  | 0.353         |
-| Precision   | 0.571    | 0.565               | 0.502 | 0.483                 | 0.569      | 0.520         | 0.566  | 0.353         |
-| Recall      | 0.571    | 0.565               | 0.502 | 0.483                 | 0.569      | 0.520         | 0.566  | 0.353         |
-| F1 Score    | 0.571    | 0.565               | 0.502 | 0.483                 | 0.569      | 0.520         | 0.566  | 0.353         |
-
 ### Logistic Regression:
 
 Type: Supervised learning algorithm for classification.
@@ -92,8 +85,14 @@ Usage: Combines multiple base classifiers with a meta-classifier to improve pred
 How it works: The base classifiers make predictions, and their outputs become inputs to a meta-classifier, which then makes the final prediction. This helps capture more complex relationships in the data.
 
 
-Tableau récapitulatif (:.3)
-Image
+### Performance Metrics by Classifier
+
+| Metric   | Logistic Regression | K-Nearest Neighbors (KNN) Classifier | Gaussian Naive Bayes (GaussianNB) | Support Vector Classifier (SVC) | Random Forest Classifier | Decision Tree Classifier | Voting Classifier | Stacking Classifier |
+|----------|----------------------|--------------------------------------|-----------------------------------|----------------------------------|--------------------------|--------------------------|-------------------|----------------------|
+| Accuracy | 0.565                | 0.502                                | 0.483                             | 0.569                            | 0.520                    | 0.353                    | 0.566             | 0.571                |
+| Precision| 0.565                | 0.502                                | 0.483                             | 0.569                            | 0.520                    | 0.353                    | 0.566             | 0.571                |
+| Recall   | 0.565                | 0.502                                | 0.483                             | 0.569                            | 0.520                    | 0.353                    | 0.566             | 0.571                |
+| F1 Score | 0.565                | 0.502                                | 0.483                             | 0.569                            | 0.520                    | 0.353                    | 0.566             | 0.571                |
 
 The final classifier chosen was stacking classifier associated with the following ones :
 - Logistic Regression (LR)
