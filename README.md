@@ -3,7 +3,7 @@
 ## 1. Introduction 
 
 The goal of this work was to classify sentences using the CEDR evaluation. The classes assigned to the sentences range from A1 (basic) to C2 (advanced). The following image gives a description of the skills associated to the different levels : 
-
+ 
 <img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/148785564/bf3b0a97-09bd-4c0a-8e44-eb2cd4598c7a" alt="image" width="1000"/>
 
 The algorithm used to achieve the classification was based on machine learning, various attempts were made using neural networks, word embedding and different classifiers. 
