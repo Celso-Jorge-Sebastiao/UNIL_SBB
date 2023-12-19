@@ -127,12 +127,12 @@ This Streamlit interface enhances user accessibility and simplifies the classifi
 
 ## 7. Paths
 
-CamemBERT (final code) : camembert_(final_code).py
-Natural Network : unsuccessful attempts/neural_network.py 
-SpaCy Newtork : unsuccessful attempts/spacy.py
-"ABC 1/2" model : unsuccessful attempts/testing_classification_embedding_bert.py
-User Interface Code : Streamlit_SBB.py
-Segment pdf : pdftosentence.py
+- CamemBERT (final code) : camembert_(final_code).py
+- Natural Network : unsuccessful attempts/neural_network.py 
+- SpaCy Newtork : unsuccessful attempts/spacy.py
+- "ABC 1/2" model : unsuccessful attempts/testing_classification_embedding_bert.py
+- User Interface Code : Streamlit_SBB.py
+- Extract sentences from pdf : pdftosentence.py
 
 ## 8. Credits 
 
@@ -142,7 +142,6 @@ The datasets provided were given by the assistants and the teacher.
 
 ## 9. Context 
 
-This assignment was made by Lisa Chauvet and Celso Jorge Sebastiao for professor Michalis Vlachos' UNIL class : Data Mining and Machine learning. 
-The deadline was scheduled at the following date : 20.12.2023
+This assignment was collaboratively undertaken by Lisa Chauvet and Celso Jorge Sebastiao for Professor Michalis Vlachos' class on Data Mining and Machine Learning at the University of Lausanne (UNIL). The completion deadline for this assignment was set for December 20, 2023.
 
 <img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/148785564/c8cb4c43-f77f-47f0-9569-39cc3429a300" alt="image" width="200"/>
