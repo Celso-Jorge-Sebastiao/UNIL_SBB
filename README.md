@@ -136,7 +136,9 @@ This Streamlit interface enhances user accessibility and simplifies the classifi
 
 ## 7. Paths
 
-- CamemBERT (final code) : camembert_(final_code).py
+- CamemBERT (final code) :
+  - camembert_(final_code).py
+  - camembert_(final_code).ipynb
 - Natural Network : unsuccessful attempts/neural_network.py 
 - SpaCy Newtork : unsuccessful attempts/spacy.py
 - "ABC 1/2" model : unsuccessful attempts/testing_classification_embedding_bert.py
