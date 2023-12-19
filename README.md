@@ -36,6 +36,13 @@ GIF
 
 ## 3. Classifiers
 
+| Metric      | Stacking | Logistic Regression | KNN   | Gaussian Naive Bayes | Kernel SVM | Random Forest | Voting | Decision Tree |
+|-------------|----------|---------------------|-------|-----------------------|------------|---------------|--------|---------------|
+| Accuracy    | 0.571    | 0.565               | 0.502 | 0.483                 | 0.569      | 0.520         | 0.566  | 0.353         |
+| Precision   | 0.571    | 0.565               | 0.502 | 0.483                 | 0.569      | 0.520         | 0.566  | 0.353         |
+| Recall      | 0.571    | 0.565               | 0.502 | 0.483                 | 0.569      | 0.520         | 0.566  | 0.353         |
+| F1 Score    | 0.571    | 0.565               | 0.502 | 0.483                 | 0.569      | 0.520         | 0.566  | 0.353         |
+
 ### Logistic Regression:
 
 Type: Supervised learning algorithm for classification.
