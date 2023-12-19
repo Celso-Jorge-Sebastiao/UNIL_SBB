@@ -2,36 +2,34 @@
 
 ## 1. Introduction 
 
-The goal of this work was to classify sentences using the CEDR evaluation. The classes assigned to the sentences range from A1 (basic) to C2 (advanced). The following image gives a description of the skills associated to the different levels : 
+
+The objective of this project was to classify french sentences using the CEDR evaluation. Sentences are assigned classes ranging from A1 (basic) to C2 (advanced). The associated skills for each level are detailed in the image below:
  
 <img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/148785564/bf3b0a97-09bd-4c0a-8e44-eb2cd4598c7a" alt="image" width="1000"/>
 
-The algorithm used to achieve the classification was based on machine learning, various attempts were made using neural networks, word embedding and different classifiers. 
-In this github repository, you will find all the data our group used in order to do the assignment and compete in the kaggle's competition. 
+The classification algorithm employed for this task was based on machine learning. We explored various approaches, including neural networks, word embedding, and different classifiers. In this GitHub repository, you will find all the data our group utilized for the assignment and our participation in the Kaggle competition.
 
-At the end of this presentation, wou will find the explanation of this assignement in a youtube video format. 
+Towards the end of this introduction, you will find an explanation of the assignment presented in video format on YouTube.
 
 ## 2. Progress overtime 
 
 <img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/82185439/cbe41261-4476-4bb7-9c4b-4bc5fb45fe8e" alt="image" height = "300" width="1000"/>
 
-The first attempts were based on a neural network algorithm. Firstly, we split the sentences from our training dataset into a bag of words vector. We used OneHotEncoding to split the labels that we wanted to predict into a 6 dimensions binary vector. The twenty stopwords used were chosen based on the sum of the different columns from our bag of words. We tried various numbers of learning rates and hidden layers. The inital score we got was 0.468 which was a bad result but still higher than the default rate. 
+The initial attempts involved applying a neural network algorithm. We began by dividing the sentences in our training dataset into a bag-of-words vector. To handle the labels, One-Hot Encoding was employed, transforming the labels into a binary vector with six dimensions. The selection of twenty stopwords was based on the cumulative sum of different columns from our bag-of-words. Various combinations of learning rates and hidden layers were experimented with. The initial score obtained was 0.468, which, although suboptimal, exceeded the default rate.
 
-Then, we tried to used spaCy which is an open-source library for advanced Natural Language Processing (NLP). Spacy offers the possibility to use 500+ french stopwords already stored in the library. We got a very good result for the training test but it was only due to overfitting. The final score was the same as the Neural Network Classifier. 
+Subsequently, we explored the use of spaCy, an open-source library for advanced Natural Language Processing (NLP). SpaCy provides access to over 500 French stopwords stored in its library. While achieving a high score for the training test, it was evident that overfitting played a significant role. The final score mirrored that of the Neural Network Classifier.
 
-Furthermore, we tried to use Bert, multi-language Bert, to embed our training dataset. We  used different classifiers. The precision for the unlabelled dataset increased to 0.505.
+In a further step, we turned to BERT, specifically the multi-language BERT, to embed our training dataset. Various classifiers were employed, resulting in an increased precision of 0.505 for the unlabelled dataset.
 
-Finally, CamemBert, which is specialized in french language was used to achieve the final score. Along with new classifiers presented below. The result score at first attempt was 0.564. After changing paremeters and classifiers, the final result was 0.569
+Lastly, CamemBERT, specialized in the French language, was leveraged to attain the final score. Alongside this, new classifiers were introduced. The initial result yielded a score of 0.564. After adjusting parameters and incorporating different classifiers, the final score improved to 0.569.
 
-### Mentions to the following uncessful attempts : 
-Data augmentation : We tried to add training data by asking ChatGPT to classify the global level of some Jules Vernes books. Then we downloaded the copyright free books, split the sentences and added the level provided by ChatGPT into all of them. 
-The training precision was great but the unlabelled precision went down to 0.50 again. 
-We believe that the labels predicted by ChaGPT were not that great and that giving the same label to all the sentences is also wrong. But this attempt showed that data augmentation might provide better precision.
-The books and their level are stored in a csv format in the "Livres" folder. 
+### Mentions to the following unsucessful attempts 
 
-The last attempt was to create 4 different predictions 
-The first part consists of prediction the category level of the sentences, it means that we only predict if the sentence is A, B or C and drop the "1" and "2" part. Then, for each category, we create a model that predicts if it's "1" or "2".
-The "ABC" model is training using one unique feature which is the number of words in the sentence. We also tried to add the number or commas but the accuracy decreased. The attempt was not completed because the precision of the "ABC" model multiplied by the precision of the "1/2" models didnt seem promising. Noting that the "1/2" model showed very high accuracy. 
+Data Augmentation:
+One of our attempts involved data augmentation, where we sought to enrich our training data by leveraging ChatGPT to classify the overall difficulty levels of selected Jules Verne books. Subsequently, we downloaded copyright-free books, segmented the sentences, and appended the predicted levels from ChatGPT. While the training precision exhibited promising results, the precision on unlabelled data dropped to 0.50. We hypothesize that the labels provided by ChatGPT may not have been optimal, and assigning the same label to all sentences could be an oversimplification. Nevertheless, this attempt highlighted the potential benefits of data augmentation. The books and their associated levels are stored in CSV format within the "Livres" folder.
+
+Hierarchical Prediction:
+In our final attempt, we aimed to create four distinct predictions. The initial stage involved predicting the category level of sentences, distinguishing between A, B, and C while excluding the "1" and "2" parts. Subsequently, for each category, we built models to predict whether the level was "1" or "2." The "ABC" model was trained using a single feature—the number of words in the sentence. Additional attempts to include the number of commas resulted in decreased accuracy. The attempt was not fully completed as the precision of the "ABC" model multiplied by the precision of the "1/2" models did not appear promising. It is noteworthy that the "1/2" model exhibited notably high accuracy.
 
 ## 3. Classifiers
 
@@ -99,13 +97,25 @@ The final classifier chosen was stacking classifier associated with the followin
 
 ## 4. Confusion Matrix 
 
-We can see that there is some problems to predict the correct labels but the majority are right and the misclassified are generally one class higher or lower than the true label. This can be corrected with more data in our dataset or maybe adding features that distinguish the neighbor classes. 
+It's insightful to recognize that the model faces challenges in predicting correct labels, but the majority are accurate, with misclassifications typically being one class higher or lower than the true label. Addressing this issue could potentially involve augmenting the dataset with more diverse examples or incorporating additional features that differentiate between neighboring classes. These strategies may help enhance the model's ability to make more precise predictions and mitigate misclassifications. Experimenting with different features and collecting a more extensive dataset could contribute to refining the model's performance.
 
 <img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/82185439/1bd94279-010c-46f4-9908-8d9e06ffee97" width="500">
 
 ## 5. User Interface 
 
-The final algorithm was integrated into a streamlit interface to help the user classify a pdf containing french sentences. The user can download copyright free books in a pdf format in https://bibliothequenumerique.tv5monde.com/liste/livres or in any other prefered platform. Then he copies the path of the downloaded file and pastes it in the user interface. The application will classify the pdf and predict the global language proficiency needed to read the book. To split the pdf sentences, we used the code "Pdf_to_sentences.py".
+The culmination of our work is an integrated algorithm presented through a Streamlit interface. This user-friendly tool aids in classifying PDFs containing French sentences. Here's how it works:
+
+- Download PDFs:
+* Users can download copyright-free books in PDF format from https://bibliothequenumerique.tv5monde.com/liste/livres or any other preferred platform.
+- Upload PDF:
+*Copy the path of the downloaded PDF file.
+*Paste the path into the provided input field on the Streamlit interface.
+-Classification Process:
+*The application utilizes our developed algorithm to classify the PDF, predicting the overall language proficiency required to read the book. The algorithm is capable of splitting PDF sentences for analysis. To extract sentences from PDFs, we employed the "pdftosentence.py" code.
+-Output:
+*Users receive the classification results, gaining insights into the global language proficiency needed for the given PDF.
+
+This Streamlit interface enhances user accessibility and simplifies the classification process, making it convenient for users to assess the language proficiency associated with their PDF content.
 
 <img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/82185439/c1173d75-0b6d-4636-b6a1-dada3b32e2bb" width="800">
 
@@ -122,6 +132,7 @@ Natural Network : unsuccessful attempts/neural_network.py
 SpaCy Newtork : unsuccessful attempts/spacy.py
 "ABC 1/2" model : unsuccessful attempts/testing_classification_embedding_bert.py
 User Interface Code : Streamlit_SBB.py
+Segment pdf : pdftosentence.py
 
 ## 8. Credits 
 
@@ -131,7 +142,7 @@ The datasets provided were given by the assistants and the teacher.
 
 ## 9. Context 
 
-This assignment was made by Lisa Chauvet and Celso Jorge Sebastiao for professor Michalis Vlachos' UNIL class : Machine learning and supervised methods. 
+This assignment was made by Lisa Chauvet and Celso Jorge Sebastiao for professor Michalis Vlachos' UNIL class : Data Mining and Machine learning. 
 The deadline was scheduled at the following date : 20.12.2023
 
 <img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/148785564/c8cb4c43-f77f-47f0-9569-39cc3429a300" alt="image" width="200"/>
