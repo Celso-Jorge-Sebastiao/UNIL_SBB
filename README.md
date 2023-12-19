@@ -8,7 +8,7 @@ The objective of this project was to classify french sentences using the CEDR ev
 <img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/148785564/bf3b0a97-09bd-4c0a-8e44-eb2cd4598c7a" alt="image" width="1000"/>
  
 The classification algorithm employed for this task was based on machine learning. We explored various approaches, including neural networks, word embedding, and different classifiers. In this GitHub repository, you will find all the data our group utilized for the assignment and our participation in the Kaggle competition.
-
+ 
 Towards the end of this introduction, you will find an explanation of the assignment presented in video format on YouTube.
 
 ## 2. Progress overtime 
