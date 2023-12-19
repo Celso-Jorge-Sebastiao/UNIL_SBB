@@ -1,7 +1,7 @@
 # UNIL_SBB - Machine learning master's projet
 
 ## 1. Introduction 
-
+ 
 
 The objective of this project was to classify french sentences using the CEDR evaluation. Sentences are assigned classes ranging from A1 (basic) to C2 (advanced). The associated skills for each level are detailed in the image below:
  
