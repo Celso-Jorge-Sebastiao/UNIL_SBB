@@ -109,7 +109,7 @@ We can see that there is some problems to predict the correct labels but the maj
 
 The final algorithm was integrated into a streamlit interface to help the user classify a pdf containing french sentences. The user can download copyright free books in a pdf format in https://bibliothequenumerique.tv5monde.com/liste/livres or in any other prefered platform. Then he copies the path of the downloaded file and pastes it in the user interface. The application will classify the pdf and predict the global language proficiency needed to read the book. To split the pdf sentences, we used the code "Pdf_to_sentences.py".
 Image + path 
-<img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/82185439/c1173d75-0b6d-4636-b6a1-dada3b32e2bb" width="500">
+<img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/82185439/c1173d75-0b6d-4636-b6a1-dada3b32e2bb" width="800">
 
 ## 6. Youtube Presentation
 Link 
