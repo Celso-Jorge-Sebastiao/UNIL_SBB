@@ -3,7 +3,7 @@
 ## 1. Introduction 
  
 The objective of this project was to classify french sentences using the CEDR evaluation. Sentences are assigned classes ranging from A1 (basic) to C2 (advanced). The associated skills for each level are detailed in the image below:
- 
+  
 <img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/148785564/bf3b0a97-09bd-4c0a-8e44-eb2cd4598c7a" alt="image" width="1000"/>
 
 Classifying sentences serves several crucial purposes:
