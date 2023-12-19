@@ -11,13 +11,11 @@ In this github repository, you will find all the data our group used in order to
 
 At the end of this presentation, wou will find the explanation of this assignement in a youtube video format. 
 
-
 ## 2. Progress overtime 
 
 <img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/82185439/cbe41261-4476-4bb7-9c4b-4bc5fb45fe8e" alt="image" height = "300" width="1000"/>
 
-
-The first attempts were based on a neural network algorithm. Firstly, we split the sentences from our training dataset into a bag of words vector. We used OneHotEncoding to split the labels that we wanted to predict into a 6 dimensions binary vector. The twenty stopwords used were chosen based on the sum of the different columns from our bag of words. We tried various numbers of learning rates and hidden layers. The inital score we got was 0.468 which was a bad result but still higher than the default rate. You can find the code in the XXX folder. 
+The first attempts were based on a neural network algorithm. Firstly, we split the sentences from our training dataset into a bag of words vector. We used OneHotEncoding to split the labels that we wanted to predict into a 6 dimensions binary vector. The twenty stopwords used were chosen based on the sum of the different columns from our bag of words. We tried various numbers of learning rates and hidden layers. The inital score we got was 0.468 which was a bad result but still higher than the default rate. 
 
 Then, we tried to used spaCy which is an open-source library for advanced Natural Language Processing (NLP). Spacy offers the possibility to use 500+ french stopwords already stored in the library. We got a very good result for the training test but it was only due to overfitting. The final score was the same as the Neural Network Classifier. 
 
@@ -85,7 +83,6 @@ Type: Meta-model or ensemble learning method.
 Usage: Combines multiple base classifiers with a meta-classifier to improve predictive performance.
 How it works: The base classifiers make predictions, and their outputs become inputs to a meta-classifier, which then makes the final prediction. This helps capture more complex relationships in the data.
 
-
 ### Performance Metrics by Classifier
 
 | Metric   | Logistic Regression | K-Nearest Neighbors (KNN) Classifier | Gaussian Naive Bayes (GaussianNB) | Support Vector Classifier (SVC) | Random Forest Classifier | Decision Tree Classifier | Voting Classifier | Stacking Classifier |
@@ -112,19 +109,29 @@ The final algorithm was integrated into a streamlit interface to help the user c
 
 <img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/82185439/c1173d75-0b6d-4636-b6a1-dada3b32e2bb" width="800">
 
+*Note that the different steps may take a while to run
+
 ## 6. Youtube Presentation
 
 [![Watch the video](https://img.youtube.com/vi/GM7pIDpK_Pg/maxresdefault.jpg)](https://www.youtube.com/watch?v=GM7pIDpK_Pg)
 
-## 7. Credits 
+## 7. Paths
+
+CamemBERT (final code) : camembert_(final_code).py
+Natural Network : unsuccessful attempts/neural_network.py 
+SpaCy Newtork : unsuccessful attempts/spacy.py
+"ABC 1/2" model : unsuccessful attempts/testing_classification_embedding_bert.py
+User Interface Code : Streamlit_SBB.py
+
+## 8. Credits 
 
 ChatGPT version 3.5 was used as a programming assistant and for debugging errors. 
 All codes were written in the google colab platform.
 The datasets provided were given by the assistants and the teacher. 
 
-## 8. Context 
+## 9. Context 
 
-This assignment was made by Lisa Chauvet-Heinz and Celso Jorge Sebastiao for professor Michaelis Vlachos' UNIL class : Machine learning and supervised methods. 
+This assignment was made by Lisa Chauvet and Celso Jorge Sebastiao for professor Michaelis Vlachos' UNIL class : Machine learning and supervised methods. 
 The deadline was scheduled at the following date : 20.12.2023
 
 <img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/148785564/c8cb4c43-f77f-47f0-9569-39cc3429a300" alt="image" width="200"/>
