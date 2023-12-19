@@ -1,7 +1,8 @@
-# UNIL_SBB
+# UNIL_SBB - Machine learning master's projet
+
 <img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/148785564/bf3b0a97-09bd-4c0a-8e44-eb2cd4598c7a" alt="image" width="1000"/>
 
-Machine learning master's projet
+
 
 <img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/148785564/c8cb4c43-f77f-47f0-9569-39cc3429a300" alt="image" width="200"/>
 
@@ -37,49 +38,49 @@ GIF
 
 ## 3. Classifiers
 
-# Logistic Regression:
+### Logistic Regression:
 
 Type: Supervised learning algorithm for classification.
 Usage: Used when the dependent variable is binary (two classes).
 How it works: It models the probability that each input belongs to a particular category and uses the logistic function to transform raw predictions into probabilities.
 
-# K-Nearest Neighbors (KNN) Classifier:
+### K-Nearest Neighbors (KNN) Classifier:
 
 Type: Instance-based learning algorithm.
 Usage: Used for both classification and regression tasks.
 How it works: It classifies a data point based on how its neighbors are classified. The class of a data point is determined by majority voting of its k-nearest neighbors.
 
-# Gaussian Naive Bayes (GaussianNB):
+### Gaussian Naive Bayes (GaussianNB):
 
 Type: Probabilistic algorithm, based on Bayes' theorem.
 Usage: Commonly used for classification tasks, especially when dealing with text data.
 How it works: Assumes that features are conditionally independent given the class and uses probability distributions (Gaussian in this case) to make predictions.
 
-# Support Vector Classifier (SVC):
+### Support Vector Classifier (SVC):
 
 Type: Supervised learning algorithm for classification.
 Usage: Effective for both binary and multi-class classification tasks.
 How it works: Finds a hyperplane that best separates the data into classes by maximizing the margin between the classes.
 
-# Random Forest Classifier:
+### Random Forest Classifier:
 
 Type: Ensemble learning algorithm.
 Usage: Effective for both classification and regression tasks.
 How it works: Builds multiple decision trees during training and merges them together to get a more accurate and stable prediction.
 
-# Decision Tree Classifier:
+### Decision Tree Classifier:
 
 Type: Supervised learning algorithm.
 Usage: Used for both classification and regression tasks.
 How it works: Divides the dataset into subsets based on the most significant attributes, forming a tree-like structure. Each leaf node represents a class label.
 
-# Voting Classifier:
+### Voting Classifier:
 
 Type: Ensemble learning method.
 Usage: Combines the predictions from multiple base classifiers and outputs the majority vote.
 How it works: It can be hard or soft voting. In hard voting, each classifier votes for a class, and the majority class is chosen. In soft voting, the predicted class probabilities are averaged, and the class with the highest average is chosen.
 
-# Stacking Classifier:
+### Stacking Classifier:
 
 Type: Meta-model or ensemble learning method.
 Usage: Combines multiple base classifiers with a meta-classifier to improve predictive performance.
@@ -116,3 +117,5 @@ All codes were written in the google colab platform.
 
 This assignment was made by Lisa Chauvet-Heinz and Celso Jorge Sebastiao for professor Michaelis Vlachos' UNIL class : Machine learning and supervised methods. 
 The deadline was scheduled at the following date : 20.12.2023
+
+<img src="https://github.com/Celso-Jorge-Sebastiao/UNIL_SBB/assets/148785564/c8cb4c43-f77f-47f0-9569-39cc3429a300" alt="image" width="200"/>
